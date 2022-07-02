@@ -1,0 +1,101 @@
+.main {
+	margin: 0 310px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.form {
+	text-align: center;
+	flex-grow: 8;
+	background-color: var(--mainWhite);
+	display: flex;
+	flex-direction: column;
+	padding: 4rem;
+}
+.form-input {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 0;
+}
+.form input {
+	text-align: center;
+	border: none;
+	border-bottom: 0.5px solid var(--mainGrey);
+	color: var(--mainBlack);
+	font-size: 18px;
+	height: 50px;
+	width: 300px;
+	letter-spacing: 3px;
+}
+h4 {
+	color: var(--mainBlack);
+	border-bottom: 2px solid var(--primaryColor);
+}
+p {
+	color: var(--mainBlack);
+	padding-top: 2rem;
+}
+p a {
+	color: var(--mainGrey);
+	text-decoration: none;
+}
+p a:hover {
+	text-decoration: none;
+	color: var(--mainBlack);
+	transition: var(--transitionAll);
+}
+.signBtn,
+.accountBtn {
+	background: var(--primaryColor);
+	border: none;
+	text-transform: uppercase;
+	padding: 1rem;
+	letter-spacing: var(--mainSpacing);
+	font-weight: bold;
+	transition: var(--transitionAll);
+	cursor: pointer;
+}
+.accountBtn:hover {
+	border: 1px solid var(--mainGrey);
+	background: transparent;
+}
+.signBtn {
+	background: var(--mainGrey);
+	color: var(--mainWhite);
+	margin-bottom: 1rem;
+}
+.signBtn:hover {
+	color: var(--mainGrey);
+	background-color: transparent;
+	border: 1px solid var(--mainBlack);
+}
+.user-icon {
+	color: var(--mainGrey);
+	font-size: 2rem;
+}
+.Modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+@media (max-width: 961px) {
+	.main {
+		margin: 4rem 0;
+		height: 100vh;
+	}
+	.signBtn,
+	.accountBtn {
+		font-size: 10px;
+	}
+}
+@media (max-width: 400px) {
+	form {
+		width: 270px !important;
+	}
+	.form-input input {
+		width: 200px !important;
+		font-size: 12px !important;
+	}
+}

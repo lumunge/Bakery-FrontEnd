@@ -1,0 +1,191 @@
+.aboutLanding {
+	width: 100%;
+	height: 500px;
+	background-image: url("../../img/cakebg1.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+}
+.motto {
+	text-align: center;
+	color: var(--primaryColor);
+	padding: 1.5rem 0 1.5rem 0;
+}
+.aboutLanding h2 {
+	color: var(--mainBlack);
+	text-align: center;
+	font-weight: 800;
+	font-size: 3rem;
+	padding: 3rem;
+}
+.aboutContent {
+	width: 100%;
+	margin-bottom: -8px;
+	background-color: var(--mainWhite);
+	color: #000;
+}
+.mainAbout {
+	background-color: var(--mainWhite);
+	color: var(--mainBlack);
+}
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5rem;
+}
+.about1 {
+	flex-direction: row;
+}
+.about2 {
+	flex-direction: row-reverse;
+}
+.about h1 {
+	font-weight: 600;
+	letter-spacing: var(--mainSpacing);
+}
+.about p {
+	font-size: 1.5rem;
+}
+.gifCover {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.desc {
+	width: 50%;
+}
+.gif1,
+.gif2,
+.gif3 {
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50% 50% 50% 50% / 35% 70% 40% 90%;
+	margin: 0 2rem 0 2rem;
+}
+.gif1 {
+	background-image: url("../../img/about1.webp");
+}
+.gif2 {
+	background-image: url("../../img/about3.webp");
+}
+.gif3 {
+	background-image: url("../../img/about4.webp");
+}
+.founder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 4rem;
+}
+.founder p {
+	font-weight: 600;
+	font-size: 1.5rem;
+	letter-spacing: var(--mainSpacing);
+	text-align: center;
+	padding: 0 5rem;
+	margin: 0 5rem;
+}
+.image .userImage {
+	width: 400px;
+	height: 400px;
+	background-image: url("../../img/about1.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50% 50% 50% 50% / 35% 70% 40% 90%;
+}
+.statistics {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 2rem;
+	padding: 3rem 0;
+	width: 100%;
+	background: var(--mainGrey);
+}
+.statistics h4 {
+	color: var(--mainWhite);
+	font-size: 2rem;
+}
+.statistics p {
+	color: var(--primaryColor);
+	font-size: 2rem;
+}
+.community {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem;
+}
+.community h1 {
+	padding-bottom: 2rem;
+}
+.community form {
+	text-align: center;
+}
+.aboutButton {
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	letter-spacing: var(--mainSpacing);
+	font-size: 1rem;
+	background-color: var(--primaryColor);
+	color: var(--mainWhite);
+	border: 0.5px solid var(--primaryColor);
+	transition: var(--transitionAll);
+	cursor: pointer;
+	text-decoration: none;
+}
+.aboutButton:hover {
+	text-decoration: none;
+	color: var(--mainBlack);
+	background: transparent;
+}
+.mapContainer {
+	width: 100%;
+	height: 453px;
+}
+.Modal {
+	width: 300px;
+	height: 200px;
+	display: flex;
+	text-align: center;
+}
+@media (max-width: 961px) {
+	.gifCover {
+		width: 60%;
+	}
+
+	.about {
+		display: flex;
+		flex-flow: column wrap;
+		width: 100%;
+	}
+	.image .userImage {
+		width: 300px;
+		height: 300px;
+	}
+	.desc {
+		width: 70%;
+	}
+	.founder p {
+		font-weight: 600;
+		font-size: 1.5rem;
+		letter-spacing: var(--mainSpacing);
+		text-align: center;
+		padding: 0 2rem;
+		margin: 0;
+	}
+	.statistics h4 {
+		font-size: 1rem;
+	}
+}

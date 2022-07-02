@@ -1,0 +1,78 @@
+.home {
+	overflow: hidden;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4rem;
+}
+.heading {
+	font-size: 3rem;
+	margin-left: 1rem;
+	color: var(--tertiaryColor);
+	text-align: center;
+}
+.learnBtn {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: var(--mainWhite);
+	padding: 1rem;
+	border-radius: 4px;
+	border: 1px solid #000000;
+}
+.learnBtn:hover {
+	color: var(--mainWhite);
+	background: var(--mainGrey);
+	text-decoration: none;
+	cursor: pointer;
+	transition: var(--transitionAll);
+}
+.banner {
+	text-align: center;
+	background: var(--mainWhite);
+	display: inline-block;
+	padding: 2rem;
+}
+
+.bannerTitle {
+	color: var(--mainGrey);
+	font-size: 3.4rem;
+	letter-spacing: var(--mainSpacing);
+	margin-bottom: 3rem;
+	text-transform: capitalize;
+}
+.bannerBtn {
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	letter-spacing: var(--mainSpacing);
+	font-size: 1rem;
+	background: var(--primaryColor);
+	color: var(--mainBlack);
+	border: 0.5px solid var(--primaryColor);
+	transition: var(--transitionAll);
+	cursor: pointer;
+}
+
+.button {
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	letter-spacing: var(--mainSpacing);
+	font-size: 1rem;
+	background-color: var(--primaryColor);
+	color: var(--mainWhite);
+	border: 0.5px solid var(--primaryColor);
+	transition: var(--transitionAll);
+	cursor: pointer;
+	text-decoration: none;
+}
+.button:hover {
+	text-decoration: none;
+	color: var(--mainWhite);
+	background: transparent;
+}
+
+.bannerBtn:hover {
+	background: transparent;
+	color: var(--mainGrey);
+}

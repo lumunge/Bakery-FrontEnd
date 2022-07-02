@@ -1,0 +1,54 @@
+footer {
+	width: 100%;
+	background-color: var(--mainBlack);
+	padding: 2rem;
+}
+.footerMain {
+	display: flex;
+	justify-content: space-evenly;
+}
+.footerCol {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footerCol a {
+	color: var(--primaryColor);
+	font-size: 1.2rem;
+	text-decoration: none;
+	letter-spacing: var(--mainSpacing);
+	text-align: center;
+}
+.footerCol a:hover {
+	transition: var(--transitionAll);
+	color: var(--mainGrey);
+}
+.linkToTop span {
+	color: var(--mainGrey);
+	cursor: pointer;
+	font-size: 2rem;
+}
+.copy {
+	padding: 1rem 0 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copy p {
+	letter-spacing: var(--mainSpacing);
+	color: var(--mainGrey);
+}
+.copy a {
+	text-decoration: none;
+	color: var(--mainWhite);
+}
+/* RESPONSIVE FOOTER */
+@media (max-width: 961px) {
+	.footerMain {
+		display: flex;
+		flex-direction: column;
+	}
+	.footerCol {
+		margin: 1rem 0;
+	}
+}

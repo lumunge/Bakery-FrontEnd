@@ -1,0 +1,33 @@
+:root {
+	--primaryColor: #ffbf00;
+	--mainWhite: #ecf0f1;
+	--mainBlack: #000;
+	--mainGrey: #424949;
+	--tertiaryColor: #fbceb1;
+	--mainSpacing: 0.1rem;
+	--btnColors: #424949;
+	--linkColors: #ecf0f1;
+	--linkHoverColors: #ffbf00;
+	--transitionAll: all 0.5s linear;
+	--mainSpacing: 1.2px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	max-width: 100%;
+	color: var(--mainWhite);
+	background-color: var(--mainWhite);
+	font-family: "Underdog", cursive;
+	background-image: url("https://raw.githubusercontent.com/lumunge/E_Commerce-Bakery-Shop/master/src/img/cakeBack.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.app {
+	overflow-x: hidden;
+}

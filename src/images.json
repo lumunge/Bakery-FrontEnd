@@ -1,0 +1,22 @@
+{
+	"slideImages": [
+		{
+			"slide1": "/img/slide1.jpg"
+		},
+		{
+			"slide2": "/img/slide2.jpg"
+		},
+		{
+			"slide3": "/img/slide3.jpg"
+		},
+		{
+			"slide4": "/img/slide4.jpg"
+		},
+		{
+			"slide5": "/img/slide5.jpg"
+		},
+		{
+			"slide6": "/img/slide6.jpg"
+		}
+	]
+}
